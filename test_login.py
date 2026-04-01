@@ -1,4 +1,3 @@
-from playwright.sync_api import sync_playwright
 from playwright.sync_api import expect
 
 
@@ -21,3 +20,5 @@ def test_input_login_and_password(page):
     locator_error = page.locator("//div[@data-testid='login-error-inline']")
     expect(locator_error).to_be_visible()
     print("3. Появляется сообщение об ошибке 'Invalid login or password.'")
+    #Добавляю ветку просто не знаю что сюда пистать
+    print("Запустил из ветки feature/improve-test")

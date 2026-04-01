@@ -20,4 +20,6 @@ def test_input_login_and_password(page):
     locator_error = page.locator("//div[@data-testid='login-error-inline']")
     expect(locator_error).to_be_visible()
     print("3. Появляется сообщение об ошибке 'Invalid login or password.'")
-    print("Это основная ветка master")
+    print("Произвёл слияние fix_print в меин")
+
+

@@ -21,4 +21,4 @@ def test_input_login_and_password(page):
     expect(locator_error).to_be_visible()
     print("3. Появляется сообщение об ошибке 'Invalid login or password.'")
     #Добавляю ветку просто не знаю что сюда пистать
-    print("Запустил из ветки feature/improve-test")
+    print("Запустил из ветки fix_print")

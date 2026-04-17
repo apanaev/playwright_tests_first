@@ -1,0 +1,9 @@
+{
+  "main_url": "http://144.31.139.115:5000",
+  "test_data": [
+    {"name": "city", "n": 10, "filter": "Price: low to high"},
+    {"name": "city", "n": 15, "filter": "Price: high to low"},
+    {"name": "habits", "n": 10, "filter": "Price: low to high"},
+    {"name": "habits", "n": 15, "filter": "Price: high to low"}
+  ]
+}

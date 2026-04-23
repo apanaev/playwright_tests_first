@@ -1,6 +1,3 @@
-from asyncio import wait_for
-
-import playwright.sync_api
 from playwright.sync_api import Page, Locator
 
 
